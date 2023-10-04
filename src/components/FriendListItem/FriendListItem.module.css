@@ -1,0 +1,38 @@
+.item {
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(7, 47, 59);
+  box-shadow: 7px 7px 8px 0px rgba(62, 143, 204, 0.2);
+}
+
+.item:hover {
+  background-color: rgb(63, 178, 245);
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid rgb(7, 47, 59);
+}
+
+.activ {
+  background-color: rgb(29, 194, 29);
+}
+
+.busy {
+  background-color: red;
+}
+
+.avatar {
+  width: 40px;
+}
+
+.name {
+  font-size: 24px;
+}
